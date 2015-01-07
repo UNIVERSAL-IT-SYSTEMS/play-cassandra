@@ -29,7 +29,7 @@ object AppBuild extends Build {
   val scalaVersion = "2.10.4"
 
   val appDependencies = Seq(
-    "com.tuplejump" %% "play-cassandra" % "1.0.0-SNAPSHOT"
+    "com.tuplejump" %% "play-cassandra" % "0.0.2-SNAPSHOT"
   )
 
   val main = Project(appName, file(".")).enablePlugins(play.PlayScala).settings(
